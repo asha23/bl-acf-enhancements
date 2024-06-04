@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: BrightLocal - ACF Enhancements
- * Description: This is an extension to ACF that allows you to add drag and drop functionality to flexible content. Also the ability to add NEW! to content block items.
- * Version: 1.0.0
+ * Description: Add drag and drop functionality to flexible content.<br><br>Add the ability to add NEW! to content block items.
+ * Version: 1.0.1
  * Author: Ash Whiting for BrightLocal
  * Author URI: https://brightlocal.com
  * Text Domain: bl-acf-enhancements
