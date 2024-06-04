@@ -16,10 +16,7 @@ if (!defined('ABSPATH')) {
 }
 
 function brightlocal_flexible_content_drag_enqueue_scripts() {
-    // Enqueue script
     wp_enqueue_script('brightlocal-flexible-content-drag', plugin_dir_url(__FILE__) . 'js/app.js', array('jquery', 'acf-input'), '1.0.0', true);
-    
-    // Enqueue stylesheet
     wp_enqueue_style('brightlocal-flexible-content-drag-style', plugin_dir_url(__FILE__) . 'css/styles.css', array(), '1.0.0');
 }
 add_action('admin_enqueue_scripts', 'brightlocal_flexible_content_drag_enqueue_scripts');
